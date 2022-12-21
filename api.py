@@ -9,9 +9,11 @@ todos = {}
 
 class TodoSimple(Resource):
 
+    #curl http://localhost:5000/todo_1
     def get(self, todo_id):
         return {todo_id: todos[todo_id]}
 
+    #curl http://localhost:5000/todo_1 -d "data=go to shower" -X PUT
     def put(self, todo_id):
         todos[todo_id] = request.form['data']
         return {todo_id: todos[todo_id]}
