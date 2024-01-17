@@ -1,0 +1,21 @@
+{
+    "tango" : { 
+        "id" : "PTN9032644",
+        "passwd" : "qhfkaozhdj3#" 
+    },
+    "mysql_db" : {
+        "host" : "localhost",
+        "user" : "svcdb",
+        "charset" : "utf8",
+        "passwd" : "Speed.003!"
+    },
+    "gpt" : {
+        "api_key" : "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"
+    },
+    "sensingDB" : { 
+        "host" : "localhost",
+        "user" : "svcdb",
+        "charset" : "utf8",
+        "passwd" : "Speed.003!"
+    }
+}
