@@ -2,7 +2,7 @@ import telegram
 from add_chat_id import DBHandler
 
 
-token = '6865217637:AAFowKNL8VfhWt5OcCt-XrJQR-rjI712cxc'
+token = ''
 yunsbot = telegram.Bot(token = token)
 updates = yunsbot.getUpdates()
 for u in updates :
